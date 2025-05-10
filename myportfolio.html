@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="header d-flex justify-content-between align-items-center p-3 bg-light">
+        <div class="logo">
+            <h1>xurinProjects</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <div id="hero" class="hero-section text-center py-5 bg-primary text-white">
+        <div class="container">
+            <h2>Hi, I'm Nirupadhee</h2>
+            <p>Web Developer | Designer | Programmer</p>
+            <img src="profile.png" alt="Profile Picture" class="img-fluid rounded-circle mt-4" width="200">
+        </div>
+    </div>
+
+    
+    <div id="about" class="about-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">About Me</h3>
+            <p>Hello! I'm a passionate web developer with experience in building responsive and interactive websites. I love working with HTML, CSS, JavaScript, and exploring new technologies!</p>
+        </div>
+    </div>
+
+    
+    
+    <div id="contact" class="contact-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Contact Me</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="footer bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="footer-logo">
+                <h5>xurinProjects</h5>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
